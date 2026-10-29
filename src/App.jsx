@@ -56,6 +56,7 @@ export default function App() {
   }, []);
 
   // Display preferences
+  const [highContrast, setHighContrast] = useState(false);
   const [captionFontSize, setCaptionFontSize] = useState('normal');
   const [selectedLanguage, setSelectedLanguage] = useState('ISL');
   const [selectedDomain, setSelectedDomain] = useState('all');
